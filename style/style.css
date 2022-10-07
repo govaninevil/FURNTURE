@@ -3,8 +3,8 @@ body{
 }
 .custom-container { padding: 0 180px; }
 ul{margin: 0px !important;padding: 0px !important;}
-.main-navbar li{display: inline-block !important} 
-/*header .main-header a:hover {color:#FFC425 ;}*/
+/* .main-navbar li{display: inline-block !important} 
+/*header .main-header a:hover {color:#FFC425 ;}
 .main-navbar{position: fixed; top: 0; left: 0; z-index: 1; width: 100%; padding:10px 0px;}
 .main-navbar .logo-box{width: 20%; display: inline-block;vertical-align: middle;}
 .main-navbar .nav-box{width: 69%; display: inline-block; margin-left: -5px;}
@@ -24,7 +24,7 @@ ul{margin: 0px !important;padding: 0px !important;}
 .menu-box{display: none;}
 .small .main-navbar{background-color: #ffffff; transition: all ease-in-out .5s;}
 .small .main-navbar .nav-box ul li a{color:#000000; transition: all ease-in-out .5s;}
-.small .main-navbar .cart-box .inner-box a{color: #000000 !important; transition: all ease-in-out .5s;}
+.small .main-navbar .cart-box .inner-box a{color: #000000 !important; transition: all ease-in-out .5s;} */
 /* banner start */
 .banner-img{
     position: relative;
