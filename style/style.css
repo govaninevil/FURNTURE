@@ -1,7 +1,7 @@
 body{
     position: relative;
 }
-.custom-container { padding: 0 180px; }
+.custom-container { padding: 0 60px; }
 ul{margin: 0px !important;padding: 0px !important;}
 li {
     list-style-type: none;
@@ -15,7 +15,7 @@ header{
 header .btn-fill{
     margin-left: 50px;
 }
-header .navbar ul li:not(:last-child){
+header .navbar ul li{
     margin-left: 37px;
 }
 header{
@@ -32,7 +32,6 @@ header .navbar .sub-menu .drop-down{
     display: none;
     position: absolute;
     top: 0px;
-    left: 0px;
     padding-top:100px !important;
 }
 header .navbar .sub-menu .drop-down .drop-down-main:hover .drop-down-sub-nav{
@@ -50,7 +49,7 @@ header .navbar .sub-menu a i{
     border: 1px solid #00000050;
 }
 .inner-box .custom-container{
-    padding: 20px 360px !important;
+    padding: 20px 0px !important;
 }
 .resp-tab-content{
     padding: 0px 15px !important;
@@ -64,7 +63,7 @@ header .navbar .sub-menu a i{
     color: #ec5826 !important;
 }
 .drop-down{
-    width: 100%;
+    width: 58%;
 }
 header .navbar ul .megamenu-list ul li{
     margin: 0px;
@@ -110,14 +109,31 @@ header .navbar .mega-drop .drop-down .megamenu-list:not(:last-child){
 .content{
     margin-top: 20px;
 }
+#gallery{
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+.outlet h4{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#gallery .slick-arrow{
+    display: none !important;
+}
 .small{
     position: fixed;
     top: 0px;
     left: 0px;
     transition: all ease-in-out .5s;
 }
+
 .small {background-color: #ffffff !important; transition: all ease-in-out .5s;}
 .navbar li a{color:#000000; transition: all ease-in-out .5s; font-size: 18px;}
+.navbar li:last-child .call-btn{color: #ffffff; border: 1px solid transparent; transition: all ease-in-out .5s;}
+.navbar li:last-child .call-btn:hover{background-color: transparent; color: #ec5826; transition: all ease-in-out .5s; border: 1px solid #ec5826;}
 .navbar li a:hover{color: #ec5826; transition: all ease-in-out .5s;}
 .navbar .sub-menu.mega-drop:hover a{color: #ec5826; transition: all ease-in-out .5s;}
 .navbar .cart-box .inner-box a{color: #000000 !important; transition: all ease-in-out .5s;}
@@ -146,6 +162,9 @@ header .navbar .mega-drop .drop-down .megamenu-list:not(:last-child){
 .fa-star{
     color: #ebeb67;
 }
+.contact-btn{
+    display: none;
+}
 .machinery{
     background-image: url('../image/machinary.jpg');
     position: relative;
@@ -167,6 +186,17 @@ header .navbar .mega-drop .drop-down .megamenu-list:not(:last-child){
 .slider .inner-box:hover img {
     transform: scale(1);
     transition: all ease-in-out .5s;
+}
+.slider .btn a{
+    transition: all .5s ease-in-out;
+}
+.slider .btn a:hover{
+    font-size: 22px;
+    color: #ec5826;
+    transition: all .5s ease-in-out;
+}
+.slider div{
+    width: 100%;
 }
 .btn-fill{
     position: relative;

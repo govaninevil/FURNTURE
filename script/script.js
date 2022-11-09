@@ -12,18 +12,21 @@ $(document).on('ready', function () {
     }
   });
 
-  $('.regular').slick({
+  $('#gallery').slick({
     dots: false,
     infinite: true,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed:0,
+    speed:8000,
+    cssEase: 'linear',
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 8,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -31,17 +34,17 @@ $(document).on('ready', function () {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToShow: 4,
+          slidesToScroll: 1
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 2000
+          autoplaySpeed: 1000
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -49,6 +52,10 @@ $(document).on('ready', function () {
       // instead of a settings object
     ]
   });
+
+  // clien-logo slider
+ 
+  
 
   // client-slider
   $('.slider-comment').slick({
@@ -115,4 +122,4 @@ $(document).on('ready', function () {
       $info.show();
     }
   });
-});      
+});     
