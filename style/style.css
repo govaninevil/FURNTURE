@@ -7,10 +7,18 @@ li {
     list-style-type: none;
     display: inline-block;
 }
+p{
+    text-align: justify !important;
+    color: #5c5656 !important;
+}
+.about-us p{
+    color: #ffffff !important;
+}
 header{
     border-bottom: 1px solid #000000 ;
     padding: 25px 100px 25px 100px;
     background-color: #ffffff !important;
+    text-transform: uppercase;
 }
 header .btn-fill{
     margin-left: 50px;
@@ -137,6 +145,7 @@ header .navbar .mega-drop .drop-down .megamenu-list:not(:last-child){
 .navbar li a:hover{color: #ec5826; transition: all ease-in-out .5s;}
 .navbar .sub-menu.mega-drop:hover a{color: #ec5826; transition: all ease-in-out .5s;}
 .navbar .cart-box .inner-box a{color: #000000 !important; transition: all ease-in-out .5s;}
+.drop-down li a{font-size: 14px;}
 /* banner start */
 .banner-img{
     position: relative;
@@ -188,14 +197,16 @@ header .navbar .mega-drop .drop-down .megamenu-list:not(:last-child){
     transition: all ease-in-out .5s;
 }
 .slider .btn a{
+    color:#ffffff ;
+    border: 1px solid #ec5826;
     transition: all .5s ease-in-out;
 }
 .slider .btn a:hover{
-    font-size: 22px;
+    background-color: #ffffff;
     color: #ec5826;
     transition: all .5s ease-in-out;
 }
-.slider div{
+.slider .box{
     width: 100%;
 }
 .btn-fill{
@@ -270,6 +281,30 @@ header .navbar .mega-drop .drop-down .megamenu-list:not(:last-child){
 .social-media a:hover{
     color: #ec5826;
     transition:  all 1s ease-in-out;
+}
+footer li{
+    display: block !important;
+}
+.footer-col{
+    width: 24%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-col h3{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+.footer-col ul li a{
+    font-size: 14px !important;
+}
+.footer-col ul li{
+    margin-top: 5px !important;
+}
+.collage.body{
+    color: #5c5656 !important;
+}
+.collage.body h3{
+    color: #000000 !important;
 }
 /* .femilt-brand .row .right{    
     width: 40%;
