@@ -354,11 +354,53 @@ footer li{
     margin-top: -100px;
     
 }
+.about-us-content p{
+    color: #ffffff !important;
+}
+.about-us-content .box.text-white{
+    padding: 100px;
+}
+.product p{
+    color: #5c5656 !important;
+}
+.product-section .product{
+    width: 32%;
+}
+.product h2{
+    font-weight: 600;
+    font-size: 22px;
+}
+.product .btn a{
+    background-color: #ec5826;
+    transition: all .5s ease-in-out;
+    font-weight: 600;
+    border: 1px solid #ec5826;
+    color: #ffffff;
+}
+.product .img img{
+    scale: .8;
+    transition: all .5s ease-in-out;
+}
+.product:hover .img img{
+    scale: 1;
+    transition: all .5s ease-in-out;
+    transform: translateX(0px);
+}
+.product .btn a:hover{
+    color: #ec5826;
+    background-color: #ffffff;
+    transition: all .5s ease-in-out;
+}
+.product-section{
+    margin-bottom: 100px;
+}
 
 
 @media screen and (max-width:1919px) {
 	.custom-container{padding: 0px 30px;}
 	.main-navbar .nav-box ul li:not(:last-child){margin-right: 50px;}
+    .out-work h2,.out-work p{width: 75% !important;}
+    
 }
 @media screen and (max-width:1599px) {
 	.main-navbar .nav-box ul li:not(:last-child){margin-right: 40px;}
@@ -368,6 +410,7 @@ footer li{
     header{padding: 15px 100px;}
     .about-us-banner img{transform: translateY(-13%);}
     .map iframe{width: 70%;}
+    .product-section .box{width: 90%;}
 }
 @media (min-width: 1280px) { 
     .machinery{
@@ -396,6 +439,8 @@ footer li{
     .cart-box{
         display: none !important;
     }
+    .about-us-content .box.text-white{padding: 50px;}
+    
 }
 @media (max-width: 1280px) {
     .machinery{
@@ -411,12 +456,26 @@ footer li{
     .footer-col ul li{margin-top: 0px !important;}
     .custom-container{padding: 0px;}
     .family-brand .left,.family-brand .right{margin: 0 auto;}
+    .about-us-content .box h2{font-size: 41px;}
+    .comment .box p{font-size: 16px;}
     .about-us-banner img {
         transform: translateY(23%);
     }
     .detail h2{font-size: 45px;}
     .detail p{font-size:12px;}
     .get-in-touch-from a{padding: 10px 20px !important;}
+    .product p{height: auto;font-size: 15px;}
+    .our-client{margin-top: 40px;}
+    .about-us-content .inner-box .flex{flex-wrap: wrap; justify-content: center;}
+    .about-us-content .inner-box .flex .box:first-child{width: 100% !important;}
+    .about-us-content .inner-box .flex .box{width:45%;}
+    .about-us-content .box.text-white{padding: 50px 100px;}
+    .comment{margin: 50px auto;}
+    .product-section .box h2{
+        font-size: 22px;
+    }
+    .product-section .product{width: 48%;}
+
 }
 @media (max-width:  900px) {
     .slider .box{width: 47%;}
@@ -454,6 +513,11 @@ footer li{
     .slider .box{width: 100%;}
     .logo{width: 50%;}
     header{padding: 15px 40px;}
+    .product-section .product{width: 100%;}
+    .product-section .box h2 {
+        font-size: 15px;
+    }
+    .product .btn a{font-size: 12px;}
     .banner-content{
         position: static !important;
         color: #1A1A1A !important;
@@ -480,6 +544,19 @@ footer li{
         padding: 0px !important;
         
     }
+    .out-work h2{font-size: 23px;}
+    .out-work p{
+        font-size: 13px;
+    }
+    .about-us-content{
+        margin-top: 50px;
+    }
+    .about-us-content .box h2{
+        font-size: 21px;
+    }
+    .about-us-content p{
+        font-size: 15px !important;
+    }
 }
 @media screen and (max-width:639px) {
 	.custom-container{padding: 0px 15px;}
@@ -497,6 +574,25 @@ footer li{
     .mega-drop .drop-down .inner-box .flex{
         display: block !important;
     } 
+    .about-us-content .box.text-white{
+        padding: 30px;
+    }
+    .about-us-content p,.about-us-content .inner-box .flex .box:first-child{
+        margin: 0px;
+    }
+    .about-us-content .inner-box .flex .box{
+        width: 41%;
+        margin-bottom: 40px;
+    }
+    .comment .box{width: 80%;}
+    .comment .box h2{font-size: 21px !important;}
+    .comment{margin: 25px 0px !important;}
+    .product p{
+        padding: 7px;
+    }
+    .slider-comment{width: 80% !important;}
+    .our-client{margin-top: 25px !important;}
+    .about-us-content p{font-size: 15px !important;}
 }
 @media screen and (max-width:480px) {
     .slick-prev, .slick-next{
@@ -511,4 +607,5 @@ footer li{
     .machinery p{font-size: 14px !important;}
     .detail h2{font-size: 31px;}
     .about-us-banner .img-box{height: 287px !important;}
+    
 }
